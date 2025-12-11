@@ -18,5 +18,17 @@ CHIP DMux8Way {
     OUT a, b, c, d, e, f, g, h;
 
     PARTS:
-    //// Replace this comment with your code.
+    // 解碼選擇訊號
+    Not(in=sel[0], out=not_s0);
+    Not(in=sel[1], out=not_s1);
+    Not(in=sel[2], out=not_s2);
+
+    And(a=in, b=not_s0, c=not_s1, d=not_s2, out=a);
+    And(a=in, b=sel[0],  c=not_s1, d=not_s2, out=b);
+    And(a=in, b=not_s0, c=sel[1],  d=not_s2, out=c);
+    And(a=in, b=sel[0],  c=sel[1],  d=not_s2, out=d);
+    And(a=in, b=not_s0, c=not_s1, d=sel[2],  out=e);
+    And(a=in, b=sel[0],  c=not_s1, d=sel[2],  out=f);
+    And(a=in, b=not_s0, c=sel[1],  d=sel[2],  out=g);
+    And(a=in, b=sel[0],  c=sel[1],  d=sel[2],  out=h);
 }
