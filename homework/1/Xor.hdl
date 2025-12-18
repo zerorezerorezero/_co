@@ -11,5 +11,14 @@ CHIP Xor {
     OUT out;
 
     PARTS:
-    //// Replace this comment with your code.
+    // 反相
+    Not(in=a, out=nota);
+    Not(in=b, out=notb);
+
+    // AND 部分
+    And(a=a,    b=notb, out=aAndNotb);
+    And(a=nota, b=b,    out=notAAndB);
+
+    // OR 合併
+    Or(a=aAndNotb, b=notAAndB, out=out);
 }

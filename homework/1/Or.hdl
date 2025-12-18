@@ -11,5 +11,7 @@ CHIP Or {
     OUT out;
 
     PARTS:
-    //// Replace this comment with your code.
+    Nand(a=a, b=a, out=nota); // a跟自己Nand=>Not a
+    Nand(a=b, b=b, out=notb); // b同上
+    Nand(a=nota, b=notb, out=out); // 迪摩根 -(a'b')= a'+b'
 }
