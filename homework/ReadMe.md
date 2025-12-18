@@ -15,7 +15,7 @@
 ### [Mux16](https://github.com/zerorezerorezero/_co/blob/main/homework/1/Mux16.hdl)
 ### [Not](https://github.com/zerorezerorezero/_co/blob/main/homework/1/Not.hdl)
 ### [Not16](https://github.com/zerorezerorezero/_co/blob/main/homework/1/Not16.hdl)
-### [Or](註解在內部) (https://github.com/zerorezerorezero/_co/blob/main/homework/1/Or.hdl)
+### [Or](https://github.com/zerorezerorezero/_co/blob/main/homework/1/Or.hdl) 註解在內部
 ### [Or8](https://github.com/zerorezerorezero/_co/blob/main/homework/1/Or8Way.hdl)
 ### [Or16](https://github.com/zerorezerorezero/_co/blob/main/homework/1/Or16.hdl)
 ### [Xor](https://github.com/zerorezerorezero/_co/blob/main/homework/1/Xor.hdl)
