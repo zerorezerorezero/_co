@@ -10,7 +10,7 @@
 ### [DMux8Way](https://github.com/zerorezerorezero/_co/blob/main/homework/1/DMux8Way.hdl)
 ### [Mux](https://github.com/zerorezerorezero/_co/blob/main/homework/1/Mux.hdl)
 ### [Mux4Way16](https://github.com/zerorezerorezero/_co/blob/main/homework/1/Mux4Way16.hdl)
-## [這邊開始有GPT](https://chatgpt.com/share/69435b6c-0350-800b-abe5-b3f283febcc5)
+## 這邊開始有[GPT](https://chatgpt.com/share/69435b6c-0350-800b-abe5-b3f283febcc5)
 ### [Mux8Way16](https://github.com/zerorezerorezero/_co/blob/main/homework/1/Mux8Way16.hdl)
 ### [Mux16](https://github.com/zerorezerorezero/_co/blob/main/homework/1/Mux16.hdl)
 ### [Not](https://github.com/zerorezerorezero/_co/blob/main/homework/1/Not.hdl)
